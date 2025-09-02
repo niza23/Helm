@@ -9,7 +9,7 @@ Covers topics from **basic concepts to advanced features** with commands, exampl
 
 ## 📂 Topics Covered
 
-1. [Introduction to Helm & Core Concepts](01-introduction.md)
+1. [Introduction to Helm & Core Concepts]((https://github.com/niza23/Helm/blob/main/01-introduction.md))
 2. [Helm Commands (Basics)](02-basic-commands.md)
 3. [Chart Structure & Templates](03-chart-structure.md)
 4. [Values & Overrides](04-values-overrides.md)
