@@ -1,53 +1,33 @@
 
+# 📘 Helm Notes (Beginner → Advanced)
 
-# 📘 Helm Notes 
-
-A complete set of **Helm and Helm Charts notes** for DevOps engineers.  
-Covers topics from **basic concepts to advanced features** with commands, examples, and best practices.
-
----
-
-## 📂 Topics Covered
-
-1. [Introduction to Helm & Core Concepts]((https://github.com/niza23/Helm/blob/main/01-introduction.md))
-2. [Helm Commands (Basics)](02-basic-commands.md)
-3. [Chart Structure & Templates](03-chart-structure.md)
-4. [Values & Overrides](04-values-overrides.md)
-5. [Helm Repositories](05-repositories.md)
-6. [Release Management](06-release-management.md)
-7. [Helm Hooks](07-hooks.md)
-8. [Chart Dependencies](08-dependencies.md)
+A complete set of **Helm and Helm Charts notes** for DevOps engineers and interview preparation.  
+These notes are organized step by step — starting from basics and moving into advanced topics.  
 
 ---
 
-## 🚀 How to Use
+## 📂 Topics Covered (so far)
 
-Clone this repository and explore the notes:
-
-```bash
-git clone https://github.com/<your-username>/helm-notes.git
-cd helm-notes
-````
-
-You can read each topic individually (organized as Markdown files), or start from the top and go step by step.
+1. [Introduction to Helm & Core Concepts](:01-introduction.md)  
+2. [Helm Commands (Basics)](:02-basic-commands.md)  
+3. [Chart Structure & Templates](:03-chart-structure.md)  
+4. [Values & Overrides](:04-values-overrides.md)  
+5. [Helm Repositories](:05-repositories.md)  
 
 ---
 
-## 🤝 Contributions
+## 🗝️ Key Helm Concepts (Quick Definitions)
 
-Contributions are welcome! If you spot an error, want to add an example, or improve formatting:
-
-1. Fork the repo
-2. Create a new branch
-3. Submit a Pull Request
+- **Helm** → A package manager for Kubernetes (like apt/yum for Linux).  
+- **Chart** → A Helm package (templates, values, metadata) describing a Kubernetes application.  
+- **Release** → A running instance of a chart deployed to a cluster.  
+- **Repository** → A collection of Helm charts (can be public or private).  
+- **values.yaml** → Default configuration values for a chart, can be overridden.  
+- **Template** → A Kubernetes manifest file written with Go templating.  
+- **Hook** → Special resources that run at certain lifecycle events (pre-install, post-upgrade, etc.).  
+- **Dependency (Subchart)** → A chart that another chart relies on (declared in `Chart.yaml`).  
+- **Helm v2 vs v3** → v2 had Tiller (server-side), v3 is client-only (improved security).  
+- **OCI Registry** → A container registry (like DockerHub, ECR, ACR) that can also store Helm charts.  
 
 ---
 
-## 📌 Why This Repo?
-
-* Structured notes from **beginner → advanced** level
-* Includes **commands, YAML examples, and real-world usage**
-
-
-Do you want me to also **draft the first Markdown file (`01-introduction.md`)** so you can see the style/format for the rest?
-```
