@@ -29,4 +29,4 @@ These notes are organized step by step — starting from basics and moving into 
 - **Helm v2 vs v3** → v2 had Tiller (server-side), v3 is client-only (improved security).  
 - **OCI Registry** → A container registry (like DockerHub, ECR, ACR) that can also store Helm charts.  
 
-
+---
