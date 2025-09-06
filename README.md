@@ -6,7 +6,7 @@ These notes are organized step by step — starting from basics and moving into 
 
 ---
 
-## 📂 Topics Covered (so far)
+## 📂 Topics Covered 
 
 1. [Introduction to Helm & Core Concepts](:01-introduction.md)  
 2. [Helm Commands (Basics)](:02-basic-commands.md)  
